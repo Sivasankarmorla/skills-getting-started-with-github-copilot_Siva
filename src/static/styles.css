@@ -142,3 +142,55 @@ footer {
   padding: 20px;
   color: #666;
 }
+/* Add below existing styles in styles.css */
+/* filepath: /workspaces/skills-getting-started-with-github-copilot_Siva/src/static/styles.css */
+
+.participants-section {
+  margin-top: 12px;
+  padding: 10px;
+  background-color: #e3f2fd;
+  border-radius: 4px;
+  border: 1px solid #90caf9;
+}
+
+.participants-section strong {
+  color: #1565c0;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.participants-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  color: #333;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.participant-email {
+  font-size: 15px;
+  color: #3949ab;
+  background: #f5f5f5;
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin-right: 8px;
+}
+
+.delete-participant {
+  cursor: pointer;
+  color: #c62828;
+  font-size: 18px;
+  margin-left: 4px;
+  transition: color 0.2s;
+  border-radius: 3px;
+  padding: 2px 5px;
+}
+.delete-participant:hover {
+  background: #ffcdd2;
+  color: #b71c1c;
+}
